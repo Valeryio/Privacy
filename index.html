@@ -4,66 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Conditions Générales de Service | Topkapp</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Topkapp - Vente & E-commerce au Bénin</title>
+    <link rel="stylesheet" href="./styles/home.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="header__container">
-            <h1 class="header__title">Conditions Générales de Service</h1>
-            <p class="header__subtitle">Bienvenue sur Topkapp.com !</p>
+            <h1 class="header__title">Topkapp</h1>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#products">Produits</a></li>
+                    <li><a href="#electronics">Montres & Accessoires</a></li>
+                    <li><a href="#phones">Téléphones</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main class="content">
-        <section class="section">
-            <h2 class="section__title">Introduction</h2>
+        <!-- Section Présentation de Topkapp -->
+        <section class="section section--about" id="about">
+            <h2 class="section__title">À propos de Topkapp</h2>
             <p class="section__text">
-                Ces termes et conditions définissent les règles et règlements pour l'utilisation du site web de Topkapp, situé à <a href="https://topkapp.com" class="section__link">https://topkapp.com</a>.
-            </p>
-            <p class="section__text">
-                En accédant à ce site web, nous supposons que vous acceptez ces termes et conditions. <strong>Ne continuez pas à utiliser Topkapp.com</strong> si vous n'acceptez pas tous les termes et conditions énoncés sur cette page.
+                Topkapp est une entreprise de vente en ligne située au Bénin, spécialisée dans l'e-commerce. Nous proposons une large gamme de produits, des fruits frais aux dernières technologies en passant par les accessoires électroniques, et bien plus encore.
             </p>
         </section>
 
-        <section class="section">
-            <h2 class="section__title">Cookies</h2>
-            <p class="section__text">
-                Nous utilisons des cookies. En accédant à Topkapp.com, vous acceptez l'utilisation de cookies conformément à notre <a href="https://topkapp.com/privacy-policy" class="section__link">Politique de confidentialité</a>.
-            </p>
+        <!-- Section Produits avec mini-caroussel -->
+        <section class="section section--products" id="products">
+            <h2 class="section__title">Nos Produits</h2>
+            <div class="carousel">
+                <div class="carousel__track">
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=Banane" alt="Banane">
+                        <h3 class="carousel__item-title">Banane</h3>
+                        <p class="carousel__item-price">Prix: 1 500 FCFA</p>
+                    </div>
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=Pomme" alt="Pomme">
+                        <h3 class="carousel__item-title">Pomme</h3>
+                        <p class="carousel__item-price">Prix: 1 000 FCFA</p>
+                    </div>
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=Orange" alt="Orange">
+                        <h3 class="carousel__item-title">Orange</h3>
+                        <p class="carousel__item-price">Prix: 800 FCFA</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="section">
-            <h2 class="section__title">Licence</h2>
-            <p class="section__text">
-                Sauf indication contraire, Topkapp et/ou ses concédants détiennent les droits de propriété intellectuelle pour tout le matériel sur Topkapp.com.
-            </p>
+        <!-- Section Montres Connectées -->
+        <section class="section section--electronics" id="electronics">
+            <h2 class="section__title">Montres Connectées & Accessoires</h2>
+            <div class="carousel">
+                <div class="carousel__track">
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=Montre+Connectée" alt="Montre Connectée">
+                        <h3 class="carousel__item-title">Montre Connectée</h3>
+                        <p class="carousel__item-price">Prix: 25 000 FCFA</p>
+                    </div>
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=Ecouteurs+Sans+Fil" alt="Écouteurs Sans Fil">
+                        <h3 class="carousel__item-title">Écouteurs Sans Fil</h3>
+                        <p class="carousel__item-price">Prix: 15 000 FCFA</p>
+                    </div>
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=Clavier+Bluetooth" alt="Clavier Bluetooth">
+                        <h3 class="carousel__item-title">Clavier Bluetooth</h3>
+                        <p class="carousel__item-price">Prix: 10 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="section">
-            <h2 class="section__title">Commentaires et Contenu Utilisateur</h2>
-            <p class="section__text">
-                Certaines sections de ce site web offrent la possibilité aux utilisateurs de poster et d'échanger des opinions et des informations.
-            </p>
+        <!-- Section Téléphones -->
+        <section class="section section--phones" id="phones">
+            <h2 class="section__title">Téléphones Portables</h2>
+            <div class="carousel">
+                <div class="carousel__track">
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=iPhone+X" alt="iPhone X">
+                        <h3 class="carousel__item-title">iPhone X</h3>
+                        <p class="carousel__item-price">Prix: 400 000 FCFA</p>
+                    </div>
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=Samsung+Galaxy+S10" alt="Samsung Galaxy S10">
+                        <h3 class="carousel__item-title">Samsung Galaxy S10</h3>
+                        <p class="carousel__item-price">Prix: 350 000 FCFA</p>
+                    </div>
+                    <div class="carousel__item">
+                        <img src="https://via.placeholder.com/200x150.png?text=Huawei+P30" alt="Huawei P30">
+                        <h3 class="carousel__item-title">Huawei P30</h3>
+                        <p class="carousel__item-price">Prix: 300 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="section">
-            <h2 class="section__title">Hyperliens vers notre Contenu</h2>
-            <p class="section__text">
-                Les organisations suivantes peuvent établir un lien vers notre site web sans approbation écrite préalable : agences gouvernementales, moteurs de recherche, organisations de presse...
-            </p>
-        </section>
-
-        <section class="section">
-            <h2 class="section__title">Limitation de Responsabilité</h2>
-            <p class="section__text">
-                Dans la mesure permise par les lois en vigueur, nous excluons toutes les représentations, garanties et conditions relatives à notre site web et à l'utilisation de ce site.
-            </p>
+        <!-- Section Contact -->
+        <section class="section section--contact" id="contact">
+            <h2 class="section__title">Contactez-Nous</h2>
+            <p class="section__text">Envoyez-nous un message à contact@topkapp.com ou appelez-nous au +229 123 456 789.</p>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
-        <p class="footer__text">© 2024 Topkapp | Tous droits réservés</p>
+        <div class="footer__container">
+            <p class="footer__text">© 2024 Topkapp - Tous droits réservés</p>
+            <ul class="footer__links">
+                <li><a href="./privacy.html">Conditions d'utilisation</a></li>
+                <li><a href="privacy.html">Politique de confidentialité</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
